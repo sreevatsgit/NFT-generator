@@ -5,5 +5,5 @@ Note to self: To generate n number of images replace the value of edition in ind
 
 ## Math involved
 
-
+![](2022-02-08-06-13-11.png)
 
