@@ -1,10 +1,11 @@
 const fs = require("fs");
+const myArgs = process.argv.slice(2);
 const { createCanvas, loadImage } = require ("canvas");
-const canvas = createCanvas(1000,1000);
-const ctx = canvas.getContext("2d");
 const {layers, width, height} = require("./input/config.js");
+const canvas = createCanvas(width,height);
+const ctx = canvas.getContext("2d");
 //for number of images that you wanna generate mess around with edition
-const edition = 100;
+const edition = myArgs.length > 0 ? Number(myArgs[0]): 1;
 
 
 const saveLayer = (_canvas, _edition) => {
@@ -23,7 +24,6 @@ const drawLayer = async (_layer, _edition) => {
         _layer.size.width,
         _layer.size.height
         );
-    console.log(`I created the ${_layer.name} layer, and chose element ${element.name} `)
     saveLayer(canvas, _edition);
 };
 
