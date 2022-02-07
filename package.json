@@ -1,0 +1,15 @@
+{
+  "name": "nft-generator",
+  "version": "1.0.0",
+  "description": "Program to generate 1000 NFTs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sreevatsan Komandur Sridhar",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "yarn": "^1.22.17"
+  }
+}
