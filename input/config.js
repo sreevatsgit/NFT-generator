@@ -94,8 +94,60 @@ const layers = [{
     position: {x:0,y:0},
     size: {width: 1000, height:1000},
 
+},{
+    id: 7,
+    name: "layer_5",
+    location: `${dir}/layer_5/`,
+    elements: getElements(`${dir}/layer_5/`),
+    position: {x:0,y:0},
+    size: {width: 1000, height:1000},
+
 },
 
+/*
+{
+    id: 8,
+    name: "layer_6",
+    location: `${dir}/layer_6/`,
+    elements: getElements(`${dir}/layer_6/`),
+    position: {x:0,y:0},
+    size: {width: 1000, height:1000},
+
+},{
+    id: 9,
+    name: "layer_7",
+    location: `${dir}/layer_7/`,
+    elements: getElements(`${dir}/layer_7/`),
+    position: {x:0,y:0},
+    size: {width: 1000, height:1000},
+
+},{
+    id: 10,
+    name: "layer_8",
+    location: `${dir}/layer_8/`,
+    elements: getElements(`${dir}/layer_8/`),
+    position: {x:0,y:0},
+    size: {width: 1000, height:1000},
+
+},{
+    id: 11,
+    name: "layer_9",
+    location: `${dir}/layer_9/`,
+    elements: getElements(`${dir}/layer_9/`),
+    position: {x:0,y:0},
+    size: {width: 1000, height:1000},
+
+},
+{
+    id: 12,
+    name: "layer_10",
+    location: `${dir}/layer_10/`,
+    elements: getElements(`${dir}/layer_10/`),
+    position: {x:0,y:0},
+    size: {width: 1000, height:1000},
+
+},
+*/
 ];
 
 console.log(layers);
